@@ -36,7 +36,7 @@ Go to /build_info in your Ruby application to see output.
 
 ```
 {
-  "git": "",
+  "git": "2015-02-09 a94bb12  (HEAD, tag: v9.9.9, testing_build_info)",
   "Rails::Info": {
     "Ruby version": "2.1.5-p273 (x86_64-darwin14.0)",
     "RubyGems version": "2.2.2",
