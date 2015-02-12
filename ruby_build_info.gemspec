@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RubyBuildInfo::VERSION
   spec.authors       = ['Adam Georgeson']
   spec.email         = ['adamgeorgeson89@gmail.com']
-  spec.summary       = %q{Rack middleware to output build information such as version control, bundled gems, and specified files to a webpage.}
-  spec.description   = %q{Rack middleware to output build information such as version control, bundled gems, and specified files to a webpage.}
+  spec.summary       = %q{Rack middleware to output build information such as version control, bundled gems, and specified files to json.}
+  spec.description   = %q{Rack middleware to output build information such as version control, bundled gems, and specified files to json.}
   spec.homepage      = 'https://github.com/adamgeorgeson/ruby_build_info'
   spec.license       = 'MIT'
 
