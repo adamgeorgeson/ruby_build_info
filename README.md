@@ -1,6 +1,6 @@
-# BuildInfo
+# RubyBuildInfo [![Gem Version](https://badge.fury.io/rb/ruby_build_info@2x.png)](http://badge.fury.io/rb/ruby_build_info)
 
-Rack middleware to output build information such as version control, bundled gems, and specified files to a webpage.
+Rack middleware to output build information such as version control, bundled gems, and specified files to JSON.
 
 ## Installation
 
@@ -74,7 +74,7 @@ Go to /build_info in your Ruby application to see output.
       "Rack::ETag",
       "RubyBuildInfo::Middleware"
     ],
-    "Application root": "/Users/adamgeorgeson/dev/non_git_app",
+    "Application root": "/Users/adamgeorgeson/dev/git_app",
     "Environment": "development",
     "Database adapter": "sqlite3",
     "Database schema version": 0
