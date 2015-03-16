@@ -128,6 +128,10 @@ Go to /build_info in your Ruby application to see output.
 }
 ```
 
+## Viewing tools
+When viewing JSON in a browser, you can use a plugin for a prettier
+view. An example Chrome extension: https://github.com/gildas-lormeau/JSONView-for-Chrome
+
 ## Contributing
 
 1. Fork it ( https://github.com/adamgeorgeson/ruby_build_info/fork )
