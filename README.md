@@ -126,7 +126,9 @@ Go to /build_info in your Ruby application to see output.
     "uglifier (2.7.0)"
   ]
 }
-```
+## Viewing tools
+When viewing JSON in a browser, you can use a plugin for a prettier
+view. An example Chrome extension: https://github.com/gildas-lormeau/JSONView-for-Chrome
 
 ## Contributing
 
