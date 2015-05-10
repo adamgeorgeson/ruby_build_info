@@ -2,7 +2,7 @@
 
 Rack middleware to output build information such as version control, bundled gems, and specified files to JSON.
 
-## Installation
+## Installation / Usage
 
 Add this line to your application's Gemfile:
 
@@ -15,22 +15,23 @@ And then execute:
 Or install it yourself as:
 
     $ gem install ruby_build_info
-    
-In your `config\environment\development.rb` or environment file of your choosing*:
-    
+
+In your `config\environment\development.rb` or environment file of your choosing:
+
     config.middleware.use(RubyBuildInfo::Middleware)
 
-By default this will output Git revision, and output of `bundle show`.
+By default this will output Git revision if available, and output of `bundle show`.
 
 You can specify an array optional file paths, such as version files.
 
     config.middleware.use(RubyBuildInfo::Middleware, file_paths: ['../custom_file_1', '../custom_file_2'])
 
-*Unless it's production.rb - then I don't condone that.
+You can also provide an optional token in your environment file. When provided, you must pass the token as a parameter to access the endpoint.
 
-## Usage
+    config.middleware.use(RubyBuildInfo::Middleware, token: 'foo')
+    http:://localhost:3000/build_info?token=foo
 
-Go to /build_info in your Ruby application to see output.
+Go to `/build_info` in your Ruby application to see output, supplying `token` paramater if configured.
 
 ## Example Output
 
