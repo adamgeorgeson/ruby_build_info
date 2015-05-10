@@ -1,4 +1,9 @@
-# 1.0.0
+# 1.1.0
+
+### Changes
+  * Support to protect endpoint by configuring a token.
+
+# 1.0.0 / 1.0.1
 
 ### Changes
   * Initial release

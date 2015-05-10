@@ -16,6 +16,9 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+require 'pry-rescue/rspec'
+
 RSpec.configure do |config|
   config.requires = ['ruby_build_info']
   # rspec-expectations config goes here. You can use an alternate
