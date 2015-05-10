@@ -1,3 +1,8 @@
+# 1.1.1
+
+### Changes
+ * Downgrade gem dependencies in gemspec.
+
 # 1.1.0
 
 ### Changes
