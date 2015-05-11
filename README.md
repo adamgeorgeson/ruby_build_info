@@ -29,7 +29,7 @@ You can specify an array optional file paths, such as version files.
 You can also provide an optional token in your environment file. When provided, you must pass the token as a parameter to access the endpoint.
 
     config.middleware.use(RubyBuildInfo::Middleware, token: 'foo')
-    http:://localhost:3000/build_info?token=foo
+    http://localhost:3000/build_info?token=foo
 
 Go to `/build_info` in your Ruby application to see output, supplying `token` paramater if configured.
 
